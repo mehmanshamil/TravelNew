@@ -1,0 +1,821 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.12) !important;
+    top: 0;
+    position: absolute;
+}
+
+.container-header {
+    display: flex;
+    width: 89%;
+    justify-content: space-between;
+    height: 105px;
+}
+
+.menu {
+    display: flex;
+    gap: 1rem;
+    letter-spacing: 2px;
+}
+
+.menu li a {
+    color: #fff;
+}
+
+.head-menu {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 160.04px;
+}
+
+.burger-menu {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.burger-menu i {
+    cursor: pointer;
+}
+
+.contact {
+    padding-right: 2rem;
+}
+
+.book {
+    padding-left: 2rem;
+    background-color: rgb(186, 113, 218);
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 30px;
+}
+
+/* HEADER */
+/* MAIN/ */
+/* section */
+.container-section {
+    width: 100%;
+    height: 855px;
+    background-image: url(../images/Card/parallax-2.jpg);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center -160px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-text {
+    width: 900px;
+    height: 10rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.check {
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 1.3rem;
+}
+
+.search-header {
+    font-size: 3rem;
+    letter-spacing: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.search {
+    position: relative;
+    width: 300px;
+}
+select {
+    appearance: none;
+  }
+.searchInp {
+    padding: 10px;
+    border-radius: 30px;
+    /* width: 100%; */
+    position: relative;
+    width: 300px;
+    cursor: pointer;
+
+}
+
+.iconSrc {
+    padding: 12px;
+    right: 10px;
+    position: absolute;
+}
+
+.category {
+    display: flex;
+    gap: 40px;
+}
+
+.catagory-box img {
+    width: 93px;
+    height: 89px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.12);
+}
+
+.catagory-box P {
+    color: #fff;
+}
+
+/* section */
+/* section */
+#desnition {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+
+.desnition-content {
+    text-align: center;
+}
+
+.desnition-content p:nth-child(1) {
+    color: gray;
+    opacity: 0.7;
+    letter-spacing: 2px;
+}
+
+.desnition-content p:nth-child(2) {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+
+.special {
+    border-bottom: 5px solid rgb(27, 188, 155);
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.box-card {
+    width: 350px;
+    height: 350px;
+    position: relative;
+}
+
+.box-card p {
+    color: #fff;
+    padding: 10px;
+
+}
+
+.card-text {
+    font-weight: bold;
+    position: absolute;
+    bottom: 45px;
+    left: 15px;
+    font-size: 1.5rem;
+}
+
+.card-content {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    letter-spacing: 2px;
+}
+
+/* section */
+/* section */
+#holiday {
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/Product/parallax-search-2\ \(1\).jpg);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-holiday {
+    width: 600PX;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-holiday button {
+    width: 210px;
+    height: 50px;
+    border-radius: 30px;
+    color: red;
+    border: none;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.content-holiday button:hover {
+    background-color: red;
+    color: #fff;
+}
+
+.holiday-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.holiday-content {
+    border-bottom: 4px solid rgb(247, 101, 112);
+}
+
+/* section */
+/* section */
+#theBest {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-theBest {
+    display: flex;
+    padding-top: 2rem;
+    width: 80%;
+}
+
+.containerTB-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-right {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.tb-img {
+    width: 750px;
+    height: 410px;
+}
+
+.pOpacity {
+    color: #9a9a9a;
+}
+
+.header-conT {
+    font-size: 2.7rem;
+    font-weight: bold;
+}
+
+#beaches {
+    border-bottom: 5px solid rgb(20, 185, 213);
+}
+
+.number {
+    font-size: 2.4rem;
+    position: relative;
+}
+
+.number::before {
+    content: "";
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid black;
+}
+
+.btn {
+    width: 130px;
+    padding: 13px;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+    background-color: rgb(27, 188, 155);
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: rgb(27, 188, 155);
+    border: 1px solid  rgb(27, 188, 155);
+}
+
+.hvr {
+    color: rgb(243, 164, 107);
+    background-color: #fff;
+}
+
+.hvrTwo {
+    background-color: #fff;
+    color: rgb(48, 190, 167);
+}
+
+.hvr:hover {
+    background-color: rgb(243, 164, 107);
+    color: #fff;
+}
+
+.hvrTwo:hover {
+    background-color: rgb(48, 190, 167);
+    color: #fff;
+
+}
+
+#numbertwo {
+    font-size: 2.4rem;
+    color: black;
+}
+
+#forPerson {
+    color: black;
+}
+
+.timer {
+    width: 633px;
+    background-color: rgb(20, 185, 213);
+    color: #fff;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: -20px;
+    font-size: 1.3rem;
+    padding: 15px;
+}
+
+.timer div {
+    padding: 10px;
+}
+
+.timefor {
+    position: absolute;
+    font-size: 1.5rem;
+    left: 15rem;
+    top: 4rem;
+}
+
+.icon-new {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000;
+    opacity: 0.2;
+}
+
+.mf-target {
+    color: #14b9d5;
+}
+
+/* section */
+/* section */
+#tour-mi {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+}
+
+.tour-mi-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-information {
+    width: 30%;
+    display: flex;
+    gap: 20px;
+}
+
+.mf-content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.mf-content p {
+    letter-spacing: 2px;
+}
+
+.mf-header {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+/* section */
+/* section */
+#details {
+    width: 100%;
+    display: flex;
+    padding: 3rem 0;
+}
+
+.lastminute {
+    background-image: url(../images/Card/parallax-7.jpg);
+    width: 50%;
+    color: #fff;
+    background-size: cover;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.details-headContent {
+    font-size: 2.5rem;
+    padding: 20px;
+}
+
+.detBtn {
+    padding: 15px;
+    width: 8rem;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.discoverNature {
+    background-image: url(../images/Card/parallax-6.jpg);
+    width: 50%;
+    color: #fff;
+    background-size: cover;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+/* section */
+/* section */
+#ourPackages {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-packages {
+    width: 80%;
+    display: flex;
+    gap: 30px;
+    padding: 2rem 0;
+}
+
+.box-packages {
+    width: 23rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #efefef;
+}
+
+.img-packages {
+    width: 370px;
+    height: 230px;
+    position: relative;
+}
+
+.location {
+    opacity: 0.7;
+    letter-spacing: 3px;
+    color: #9a9a9a;
+    font-size: 0.8rem;
+}
+
+.btnDetail {
+    padding: 1rem;
+}
+
+.iconImg {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 20px;
+    bottom: -18px;
+    padding: 5px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.packages-content {
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.packagesOne {
+    padding: 0 0.5rem;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.priceName {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-packages {
+    font-size: 1.7rem;
+
+}
+
+.btnDetail {
+    width: 7rem;
+    padding: 15px;
+    height: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    letter-spacing: 1px;
+}
+
+.numSpec {
+    color: gray;
+    font-size: 1.5rem;
+}
+
+.packages-text {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+/* section */
+/* footer */
+footer {
+    background-image: url(../images/footer.jpg);
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+}
+
+.travel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.travel-send {
+    display: flex;
+    width: 45%;
+    padding: 5rem 0;
+    justify-content: space-between;
+}
+
+.keep {
+    color: gray;
+    letter-spacing: 1px;
+}
+
+.travelCntnt {
+    color: #555555;
+    font-size: 25px;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.travelSrc {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.travelSearch {
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    padding: 15px;
+}
+
+#btnSnd {
+    color: #fff;
+    background-color: #14b9d5;
+    padding: 10px 15px;
+    width: 5.5rem;
+    height: 2.2rem;
+    border: none;
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#btnSnd:hover {
+    color: #14b9d5;
+    background-color: #fff;
+}
+
+.travel-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.travelMoreInfo {
+    background-color: #fff;
+    width: 100%;
+    padding: 3.5rem;
+    display: flex;
+}
+
+.travel-contnt-body {
+    width: 83%;
+}
+
+.footer-logo {
+    width: 150px;
+    height: 35.10px;
+}
+
+.travel-box1 {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.icon-social {
+    display: flex;
+    gap: 15px;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.icon-social i {
+    cursor: pointer;
+}
+
+.icon-viemo {
+    width: 1.2em;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.color {
+    color: gray;
+    letter-spacing: 1.5px;
+    opacity: 0.7;
+}
+
+.more-info-footer {
+    display: flex;
+    gap: 25px;
+    width: 41rem;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.list ul li {
+    padding: 0.5rem;
+    position: relative;
+}
+
+.list ul li a {
+    color: gray;
+    letter-spacing: 1.5px;
+    opacity: 0.7;
+
+}
+
+.travel-head-cont {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 1.5rem 0;
+}
+
+.list ul li::before {
+    content: ">";
+    position: absolute;
+    left: -10px;
+    color: gray;
+    opacity: 0.7;
+}
+
+.travel-box2 {
+    width: 100%;
+    background-color: #14b9d5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.travel-box2 p {
+    padding: 17px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.fixed {
+    position: absolute;
+    right: 50px;
+    bottom: 30px;
+    color: #fff;
+    position: fixed;
+    width: 5rem;
+    display: flex;
+}
+
+.fixLogo {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    font-size: 0.5rem;
+    border-radius: 50%;
+    background-color: #555555;
+    z-index: 1;
+    border: 1px solid black;
+}
+
+.content-fix {
+    position: relative;
+    width: 9rem;
+}
+
+#bynow {
+    position: absolute;
+    font-size: 0.7rem;
+    width: 3rem;
+}
+
+#fixNum {
+    font-size: 2.7rem;
+    position: absolute;
+    top: -2.5rem;
+    left: -1.2rem;
+    background-color: #555555;
+    padding: 0.5rem;
+    border-radius: 50%;
+    width: 5rem;
+    text-align: center;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fixNum::before {
+    content: "BUY NOW";
+    background-color: red;
+    color: #fff;
+    width: 0.5rem;
+    font-size: 0.6rem;
+    width: 3.2rem;
+    position: absolute;
+    top: 2px;
+}
+
+/* footer */
